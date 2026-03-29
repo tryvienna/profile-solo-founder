@@ -12,7 +12,7 @@
     "author": { "name": "Drift Team" }
   },
   {
-    "id": "founder_badge",
+    "id": "founder-badge",
     "name": "Solo Technical Founder",
     "description": "Quick actions and tools for solo founders",
     "version": "0.0.1",
