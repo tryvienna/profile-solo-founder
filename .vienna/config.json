@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "name": "Solo Technical Founder",
+  "description": "Quick actions and tools for solo founders — changelogs, launch marketing, revenue tracking, outreach, and landing pages.",
+  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
+  "icon": "🚀",
+  "tags": ["founder", "indie-hacker", "startup", "saas", "build-in-public"],
+  "plugins": [
+    { "id": "linear", "requirement": "recommended", "reason": "Track tasks and roadmap with Linear" }
+  ],
+  "skills": [
+    { "id": "getting-started", "requirement": "recommended" }
+  ],
+  "quickActions": [
+    { "id": "changelog", "requirement": "recommended" },
+    { "id": "launch-marketing", "requirement": "recommended" },
+    { "id": "revenue-check", "requirement": "recommended" },
+    { "id": "cold-outreach", "requirement": "recommended" },
+    { "id": "landing-page", "requirement": "recommended" }
+  ],
+  "registries": [],
+  "settings": []
+}

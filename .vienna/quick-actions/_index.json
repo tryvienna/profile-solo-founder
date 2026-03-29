@@ -1,0 +1,127 @@
+[
+  {
+    "id": "changelog",
+    "label": "Generate changelog",
+    "icon": "📝",
+    "description": "Generate a changelog from recent commits",
+    "author": { "name": "Vienna Team" },
+    "tags": ["git", "changelog", "release"],
+    "options": [
+      {
+        "id": "changelog-week",
+        "label": "This week's changes",
+        "prompt": "Generate a user-facing changelog from this week's git commits. Group by feature, fix, and improvement. Write it in a tone suitable for a product update blog post."
+      },
+      {
+        "id": "changelog-release",
+        "label": "Since last release tag",
+        "prompt": "Generate a changelog from all commits since the last git tag. Format it as a GitHub release notes draft with sections for Features, Fixes, and Breaking Changes."
+      },
+      {
+        "id": "changelog-quick",
+        "label": "Just the highlights",
+        "prompt": "Give me a 3-5 bullet point summary of the most important changes from recent commits. Keep it concise — this is for a tweet or Slack update."
+      }
+    ]
+  },
+  {
+    "id": "launch-marketing",
+    "label": "Draft launch content",
+    "icon": "📣",
+    "description": "Create marketing content for feature launches",
+    "author": { "name": "Vienna Team" },
+    "tags": ["marketing", "launch", "twitter"],
+    "options": [
+      {
+        "id": "launch-tweet-thread",
+        "label": "Twitter/X launch thread",
+        "prompt": "Draft a Twitter/X thread announcing this feature launch. Open with a hook, walk through the problem → solution → result, include a CTA. Keep each tweet under 280 chars. Use #BuildInPublic."
+      },
+      {
+        "id": "launch-ph-description",
+        "label": "Product Hunt description",
+        "prompt": "Write a Product Hunt launch description. Include a compelling tagline, a clear problem statement, key features (3-5 bullets), and a maker's comment. Keep it authentic and avoid buzzwords."
+      },
+      {
+        "id": "launch-hn-post",
+        "label": "Show HN post",
+        "prompt": "Draft a Show HN post. Lead with what it does in one sentence, explain the technical approach briefly, mention what makes it different, and end with an ask for feedback. No marketing language."
+      }
+    ]
+  },
+  {
+    "id": "revenue-check",
+    "label": "Check revenue & metrics",
+    "icon": "💰",
+    "description": "Revenue dashboards and business metrics",
+    "author": { "name": "Vienna Team" },
+    "tags": ["revenue", "metrics", "analytics"],
+    "options": [
+      {
+        "id": "revenue-daily",
+        "label": "Today's revenue summary",
+        "prompt": "Pull today's revenue data and give me a quick summary: total revenue, new subscriptions, churned customers, and MRR change. Compare to yesterday and last week same day."
+      },
+      {
+        "id": "revenue-weekly",
+        "label": "Weekly business metrics",
+        "prompt": "Give me a weekly business metrics summary: MRR, new trials, trial-to-paid conversion rate, churn rate, and top traffic sources. Flag anything that changed significantly from last week."
+      },
+      {
+        "id": "revenue-cohort",
+        "label": "Retention cohort analysis",
+        "prompt": "Run a retention cohort analysis for the last 3 months. Show me month-over-month retention rates and identify which cohorts are retaining best. Suggest what might explain the differences."
+      }
+    ]
+  },
+  {
+    "id": "cold-outreach",
+    "label": "Write outreach email",
+    "icon": "✉️",
+    "description": "Personalized outreach and sales emails",
+    "author": { "name": "Vienna Team" },
+    "tags": ["sales", "outreach", "email"],
+    "options": [
+      {
+        "id": "outreach-cold",
+        "label": "Cold email to a prospect",
+        "prompt": "Write a cold outreach email for a prospect. I'll give you their name and company — research what they do and write a personalized email that leads with their pain point, not our product. Keep it under 150 words."
+      },
+      {
+        "id": "outreach-followup",
+        "label": "Follow-up after no reply",
+        "prompt": "Draft a follow-up email for a prospect who didn't reply to my first outreach. Keep it short (2-3 sentences), reference the original email, add one new value point, and make the CTA even easier."
+      },
+      {
+        "id": "outreach-partnership",
+        "label": "Partnership proposal",
+        "prompt": "Write a partnership proposal email. I'll describe the potential partner — draft an email that explains the mutual benefit, proposes a specific collaboration, and suggests a low-commitment first step."
+      }
+    ]
+  },
+  {
+    "id": "landing-page",
+    "label": "Create landing page copy",
+    "icon": "🏠",
+    "description": "Landing page headlines, copy, and CTAs",
+    "author": { "name": "Vienna Team" },
+    "tags": ["marketing", "copywriting", "landing-page"],
+    "options": [
+      {
+        "id": "landing-full",
+        "label": "Full landing page copy",
+        "prompt": "Write complete landing page copy for my product. Include: hero headline + subhead, 3 feature sections with headlines and descriptions, social proof section, FAQ (4-5 questions), and a final CTA. Keep it concise and benefit-driven."
+      },
+      {
+        "id": "landing-headlines",
+        "label": "Just give me 10 headline options",
+        "prompt": "Generate 10 headline options for my landing page. Mix different approaches: benefit-driven, curiosity-driven, social proof, and direct. For each, include a supporting subheadline."
+      },
+      {
+        "id": "landing-ab-variants",
+        "label": "A/B test variants for hero section",
+        "prompt": "Create 3 distinct hero section variants for A/B testing. Each should have a different angle: one emotional, one rational/data-driven, one social proof-driven. Include headline, subhead, and CTA button text for each."
+      }
+    ]
+  }
+]
