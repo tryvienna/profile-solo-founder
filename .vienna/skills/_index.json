@@ -1,13 +1,13 @@
 [
   {
-    "id": "getting-started",
-    "name": "Getting Started",
-    "description": "Introduction to using Vienna profiles — how to customize and share",
+    "id": "founder-toolkit",
+    "name": "Founder Toolkit",
+    "description": "Solo founder workflows — shipping fast, validating ideas, and building in public",
     "version": "1.0.0",
     "source": "inline",
-    "icon": "👋",
-    "category": "Onboarding",
-    "tags": ["profiles", "onboarding", "getting-started"],
+    "icon": "🚀",
+    "category": "Founder",
+    "tags": ["founder", "startup", "shipping", "build-in-public"],
     "author": { "name": "Vienna Team" }
   }
 ]

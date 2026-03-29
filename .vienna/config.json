@@ -6,10 +6,11 @@
   "icon": "🚀",
   "tags": ["founder", "indie-hacker", "startup", "saas", "build-in-public"],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Track tasks and roadmap with Linear" }
+    { "id": "linear", "requirement": "recommended", "reason": "Track tasks and roadmap with Linear" },
+    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows active profile in menu bar" }
   ],
   "skills": [
-    { "id": "getting-started", "requirement": "recommended" }
+    { "id": "founder-toolkit", "requirement": "recommended" }
   ],
   "quickActions": [
     { "id": "changelog", "requirement": "recommended" },
