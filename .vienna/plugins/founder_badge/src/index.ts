@@ -3,7 +3,7 @@ import { ProfileMenuBarIcon } from './ui/MenuBarIcon';
 import { ProfileMenuBarContent } from './ui/MenuBarContent';
 
 export const profilePlugin = definePlugin({
-  id: 'founder-badge',
+  id: 'founder_badge',
   name: 'Solo Technical Founder',
   description: 'Quick actions and tools for solo founders',
   icon: { text: '🚀' },

@@ -1,4 +1,4 @@
 {
   "version": 1,
-  "defaults": ["linear", "founder-badge"]
+  "defaults": ["linear", "founder_badge"]
 }
