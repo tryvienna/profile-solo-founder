@@ -1,23 +1,58 @@
 {
   "version": 1,
   "name": "Solo Technical Founder",
-  "description": "Quick actions and tools for solo founders — changelogs, launch marketing, revenue tracking, outreach, and landing pages.",
-  "author": { "name": "Vienna Team", "url": "https://tryvienna.com" },
-  "icon": "🚀",
-  "tags": ["founder", "indie-hacker", "startup", "saas", "build-in-public"],
+  "description": "Quick actions and tools for solo founders \u2014 changelogs, launch marketing, revenue tracking, outreach, and landing pages.",
+  "author": {
+    "name": "Vienna Team",
+    "url": "https://tryvienna.com"
+  },
+  "icon": "\ud83d\ude80",
+  "tags": [
+    "founder",
+    "indie-hacker",
+    "startup",
+    "saas",
+    "build-in-public"
+  ],
   "plugins": [
-    { "id": "linear", "requirement": "recommended", "reason": "Track tasks and roadmap with Linear" },
-    { "id": "profile_badge", "requirement": "recommended", "reason": "Shows active profile in menu bar" }
+    {
+      "id": "linear",
+      "requirement": "recommended",
+      "reason": "Track tasks and roadmap with Linear"
+    },
+    {
+      "id": "founder-badge",
+      "requirement": "recommended",
+      "reason": "Shows profile identity in menu bar"
+    }
   ],
   "skills": [
-    { "id": "founder-toolkit", "requirement": "recommended" }
+    {
+      "id": "founder-toolkit",
+      "requirement": "recommended"
+    }
   ],
   "quickActions": [
-    { "id": "changelog", "requirement": "recommended" },
-    { "id": "launch-marketing", "requirement": "recommended" },
-    { "id": "revenue-check", "requirement": "recommended" },
-    { "id": "cold-outreach", "requirement": "recommended" },
-    { "id": "landing-page", "requirement": "recommended" }
+    {
+      "id": "changelog",
+      "requirement": "recommended"
+    },
+    {
+      "id": "launch-marketing",
+      "requirement": "recommended"
+    },
+    {
+      "id": "revenue-check",
+      "requirement": "recommended"
+    },
+    {
+      "id": "cold-outreach",
+      "requirement": "recommended"
+    },
+    {
+      "id": "landing-page",
+      "requirement": "recommended"
+    }
   ],
   "registries": [],
   "settings": []
